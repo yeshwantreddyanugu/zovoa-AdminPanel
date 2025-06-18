@@ -27,7 +27,7 @@ const ManageTemplatesSection = () => {
   const [editingTemplate, setEditingTemplate] = useState<Template | null>(null);
   const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
   const { toast } = useToast();
-  const Base_url = 'https://7154-2401-4900-889d-f550-794e-e476-7486-f3b3.ngrok-free.app';
+  const Base_url = 'https://zovoaapi.lytortech.com/';
 
   const fetchTemplates = async (niche: string) => {
     if (!niche) {
